@@ -2,7 +2,7 @@
 
 This is the frontend component of the grocery store sorting app. You'll be importing the two components of this application:
 - groceryfrontend (this repo)
-- grocerybackend (https://github.com/rajivnathan/grocerybackend)
+- grocerybackend (https://github.com/codewind-resources/grocerybackend)
 You'll be exploring the Visual Studio Code plugin.
 You'll be integrating the components and adding function to the application.
 
@@ -31,7 +31,7 @@ We’ll be using this application to show the various capabilities of Codewind, 
 The grocery store inventory front end and back end projects need to be created before you start the remaining exercises. Codewind has the capability to create a new project or import existing projects. In this setup phase, we’ll import an initial frontend application and create the backend application, and then connect them together. 
 
 ### Step 1: Import the frontend project 
-1. Clone the frontend project from https://github.com/rajivnathan/groceryfrontend to the codewind-workspace directory (Usually located in your home directory).
+1. Clone the frontend project from https://github.com/codewind-resources/groceryfrontend to the codewind-workspace directory (Usually located in your home directory).
 2. Import the frontend project from the Codewind Explorer menu by right clicking on Projects and selecting `Add Existing Project`. (**Note**: For Eclipse, the Codewind Explorer can be viewed by navigating to Window > Show View > Other… > Codewind > Codewind Explorer. Furthermore, the project first needs to be imported to the Eclipse workspace by using the Eclipse Import... > General > Projects from Folder or Archive, and importing the frontend project from the codewind-workspace directory, you cloned above. You can now view the project from `Add Existing Project...` menu option from the Codewind plugin in the Codewind Explorer)
   ![image](https://user-images.githubusercontent.com/20015929/67326859-15169380-f4e5-11e9-88d7-c92d2c879689.png)
 3. As the project imports, Codewind will detect the project type. Verify that it detects the project type correctly (nodejs). Click **Yes** to finish importing the project.
@@ -41,7 +41,7 @@ The project will appear in the Codewind view and will start building automatical
 1. In the Codewind Explorer menu, right click **Projects** and select **Create New Project**
 2. Select the **WebSphere Liberty MicroProfile** type and give it the name 'grocerybackend' and press **Enter**
 3. Wait for the project to build and start. The project build status will change to *Build successful* and the project app status will change to *Running*. 
-4. In your browser, navigate to https://github.com/rajivnathan/grocerybackend/tree/add-db. Download the contents of this branch to your local machine and extract the contents. Move the extracted contents (`db` and `src`) to the `grocerybackend` directory under the `codewind-workspace`.
+4. In your browser, navigate to https://github.com/codewind-resources/grocerybackend/tree/add-db. Download the contents of this branch to your local machine and extract the contents. Move the extracted contents (`db` and `src`) to the `grocerybackend` directory under the `codewind-workspace`.
 5. Select **Replace** if there is an error or warning saying the folder application already exists.
 6. In VS Code, you should see the grocerybackend automatically start building once it detects the file changes. If not, simply right click the project and select `Build`.
 7. Check the Codewind Explorer/Projects view and make sure both the groceryfrontend and grocerybackend projects have built successfully and are running.
